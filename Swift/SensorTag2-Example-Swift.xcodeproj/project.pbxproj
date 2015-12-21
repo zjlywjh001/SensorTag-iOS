@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A385DED1C281D28004B8576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A385DEC1C281D28004B8576 /* AppDelegate.swift */; };
+		3A385DEF1C281D28004B8576 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A385DEE1C281D28004B8576 /* ViewController.swift */; };
+		3A385DF21C281D28004B8576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A385DF01C281D28004B8576 /* Main.storyboard */; };
+		3A385DF41C281D28004B8576 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A385DF31C281D28004B8576 /* Images.xcassets */; };
+		3A385DF71C281D28004B8576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A385DF51C281D28004B8576 /* LaunchScreen.storyboard */; };
+		DB029B38A8D1176CE6401C70 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2378B3648F3BEE1054EF778 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01DE736F5F254A63DC6AA37F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3A385DE91C281D28004B8576 /* SensorTag2-Example-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SensorTag2-Example-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A385DEC1C281D28004B8576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A385DEE1C281D28004B8576 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A385DF11C281D28004B8576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A385DF31C281D28004B8576 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3A385DF61C281D28004B8576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A385DF81C281D28004B8576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B570E1BFE5D963CB6656B6E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A2378B3648F3BEE1054EF778 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A385DE61C281D28004B8576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB029B38A8D1176CE6401C70 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A385DE01C281D28004B8576 = {
+			isa = PBXGroup;
+			children = (
+				3A385DEB1C281D28004B8576 /* SensorTag2-Example-Swift */,
+				3A385DEA1C281D28004B8576 /* Products */,
+				4EDA30E2C1F553D184A035EB /* Pods */,
+				81B5B7E987F1F5CE0839669E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A385DEA1C281D28004B8576 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A385DE91C281D28004B8576 /* SensorTag2-Example-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A385DEB1C281D28004B8576 /* SensorTag2-Example-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				3A385DEC1C281D28004B8576 /* AppDelegate.swift */,
+				3A385DEE1C281D28004B8576 /* ViewController.swift */,
+				3A385DF01C281D28004B8576 /* Main.storyboard */,
+				3A385DF31C281D28004B8576 /* Images.xcassets */,
+				3A385DF51C281D28004B8576 /* LaunchScreen.storyboard */,
+				3A385DF81C281D28004B8576 /* Info.plist */,
+			);
+			path = "SensorTag2-Example-Swift";
+			sourceTree = "<group>";
+		};
+		4EDA30E2C1F553D184A035EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01DE736F5F254A63DC6AA37F /* Pods.debug.xcconfig */,
+				6B570E1BFE5D963CB6656B6E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81B5B7E987F1F5CE0839669E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2378B3648F3BEE1054EF778 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A385DE81C281D28004B8576 /* SensorTag2-Example-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A385DFB1C281D28004B8576 /* Build configuration list for PBXNativeTarget "SensorTag2-Example-Swift" */;
+			buildPhases = (
+				900CAD1818FABD2219DF0969 /* Check Pods Manifest.lock */,
+				3A385DE51C281D28004B8576 /* Sources */,
+				3A385DE61C281D28004B8576 /* Frameworks */,
+				3A385DE71C281D28004B8576 /* Resources */,
+				A8FF34A68A996E7FBFD5FDD6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SensorTag2-Example-Swift";
+			productName = "SensorTag2-Example-Swift";
+			productReference = 3A385DE91C281D28004B8576 /* SensorTag2-Example-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A385DE11C281D28004B8576 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Texas Instruments";
+				TargetAttributes = {
+					3A385DE81C281D28004B8576 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3A385DE41C281D28004B8576 /* Build configuration list for PBXProject "SensorTag2-Example-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A385DE01C281D28004B8576;
+			productRefGroup = 3A385DEA1C281D28004B8576 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A385DE81C281D28004B8576 /* SensorTag2-Example-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A385DE71C281D28004B8576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A385DF71C281D28004B8576 /* LaunchScreen.storyboard in Resources */,
+				3A385DF41C281D28004B8576 /* Images.xcassets in Resources */,
+				3A385DF21C281D28004B8576 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		900CAD1818FABD2219DF0969 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8FF34A68A996E7FBFD5FDD6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A385DE51C281D28004B8576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A385DEF1C281D28004B8576 /* ViewController.swift in Sources */,
+				3A385DED1C281D28004B8576 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A385DF01C281D28004B8576 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A385DF11C281D28004B8576 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A385DF51C281D28004B8576 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A385DF61C281D28004B8576 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A385DF91C281D28004B8576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A385DFA1C281D28004B8576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A385DFC1C281D28004B8576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01DE736F5F254A63DC6AA37F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SensorTag2-Example-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ti.SensorTag2-Example-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A385DFD1C281D28004B8576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B570E1BFE5D963CB6656B6E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SensorTag2-Example-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ti.SensorTag2-Example-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A385DE41C281D28004B8576 /* Build configuration list for PBXProject "SensorTag2-Example-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A385DF91C281D28004B8576 /* Debug */,
+				3A385DFA1C281D28004B8576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A385DFB1C281D28004B8576 /* Build configuration list for PBXNativeTarget "SensorTag2-Example-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A385DFC1C281D28004B8576 /* Debug */,
+				3A385DFD1C281D28004B8576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A385DE11C281D28004B8576 /* Project object */;
+}
